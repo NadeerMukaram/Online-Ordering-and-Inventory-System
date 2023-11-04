@@ -1,0 +1,488 @@
+@font-face {
+  font-family: 'HWYGOTH';
+  src: url('./font/HWYGOTH.TTF'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Evogria';
+  src: url('./font/Evogria.otf'); /* IE9 Compat Modes */
+}
+
+
+
+@media screen and (max-width:400px) and (min-width:360px) { 
+    
+    .img-thumbnail {
+    margin-top: 45px;
+    width: 100%;
+    height: 250px;
+    border:2px solid black;
+    border-radius:10px;
+    }
+
+   
+   #productname {
+    margin-top: -30%;
+    } 
+    
+    .row {
+    --bs-gutter-x: none;
+    }
+
+}
+
+
+@media screen and (max-width:450px) and (min-width:400px) {
+    
+    .img-thumbnail {
+    margin-top: 45px;
+    width: 100%;
+    height: 250px;
+    border-radius:10px;
+    }
+    
+    
+    #productname {
+    margin-top: -30%;
+    } 
+    
+    .row {
+    --bs-gutter-x: none;
+    }
+        
+}
+
+@media screen and (min-width: 992px) {
+    
+    .img-thumbnail {
+    margin-top: 45px;
+    width: 93%;
+    height:60vh;
+    border-radius:10px;
+    -webkit-box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.3);
+    }
+
+}
+
+
+@media screen and (min-width: 1280px) {
+    
+    .img-thumbnail {
+    margin-top: 6%;
+    width: 93%;
+    height: 60vh;
+    border-radius:10px;
+    -webkit-box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.3);
+    }
+    
+    
+}
+
+
+#cartplacing {
+        margin-right: 7.2vw;
+}
+
+@media screen and (max-width: 1440px) {
+    
+    #cartplacing {
+    margin-right: 0.1vw;
+    }
+    
+}
+
+.relatedaltreso {
+    height:300px;
+}
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+ }
+
+.sliderforproductpage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 260%;
+	background-image: linear-gradient(to top, #eeeeee , white, #c8c6a7);
+	z-index: -1;
+}	   
+
+.quantity {
+  padding:0 0 20px 0;
+}
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    border-radius: 5px;
+    background: #333;
+}
+ 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #c8c6a7;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+ 
+button:focus,
+input:focus {
+  outline:0;
+}
+
+
+
+	
+	
+.productbody {
+	width:80%;
+	margin:auto;
+}
+
+.productdescrp {
+	margin-top:105px;
+}
+	
+	
+.relatedproductsbody {
+	text-align:center;
+}	
+
+.itemaddtocard {
+	padding:10px 0 10% 0; 
+}	
+
+.itemaddtocard a{
+	background:#c8c6a7;
+	font-family:Evogria;
+	width:250px;
+	font-size:25px;
+}
+
+.hantechdiscount {
+	margin:10px 0 10px 0;
+	width:100%;
+	height:20%;
+}
+	
+#productname {
+	color:#333333;
+	font-family:Evogria;
+}
+
+#productdescrip {
+	color:#333333;
+
+}
+	
+#productquantity {
+	color:#333333;
+	font-family: Evogria;
+}	
+	
+#productprizehan {
+	color:#333333;
+
+}
+	
+#relatedproduct	{
+	color:#333333;
+	font-family:Evogria;
+}
+
+.card-title{
+	font-family:Evogria;
+}
+
+.card-text {
+
+}
+
+
+.btn {
+	border:#333333;
+	font-family:Evogria;
+	background:#333333;
+}
+
+.btn:hover {
+	background:#515151
+}
+
+.carousel-indicators {
+	margin:auto;
+	background:#333333;
+	width:100%;
+	opacity:0.9;
+}
+
+
+.list-inline-item, .usrname {
+	font-family:Evogria;
+}
+
+
+
+.list-inline-item button {
+	font-size:30px;
+	border:none;
+	color:#333333;
+}
+
+.list-inline-item button:hover {
+	color:#c8c6a7;
+}
+
+/* footer for product page */	
+#forproduct {
+	position: relative;
+	margin:auto;
+	margin-top:100px;
+	padding: 45px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-image: linear-gradient(to top,  #191919 , #151515 , #151515);
+	background-position:center; 
+	background-repeat:no-repeat; 
+	color: white;
+	text-align: center;
+}
+	
+	
+/* Product item carousel */	
+.carousel {
+	margin-top: 7rem;
+	margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+
+
+
+/* Comment Section */
+
+body{
+    margin-top:20px;
+    background:#eee;
+}
+
+@media (min-width: 0) {
+    .g-mr-15 {
+        margin-right: 1.07143rem !important;
+    }
+}
+@media (min-width: 0){
+    .g-mt-3 {
+        margin-top: 0.21429rem !important;
+    }
+}
+
+.g-height-50 {
+    height: 50px;
+}
+
+.g-width-50 {
+    width: 50px !important;
+}
+
+@media (min-width: 0){
+    .g-pa-30 {
+        padding: 2.14286rem !important;
+    }
+}
+
+.g-bg-secondary {
+    background-color: #fafafa !important;
+}
+
+.u-shadow-v18 {
+    box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.15);
+}
+
+.g-color-gray-dark-v4 {
+    color: #777 !important;
+}
+
+.g-font-size-12 {
+    font-size: 0.85714rem !important;
+}
+
+.media-comment {
+    margin-top:20px
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+	
+	.carousel-item > img {
+    height: 22rem;
+	}
+	
+	.carousel-indicators {
+    bottom: 31%;
+	}
+	
+	.hantechdiscount {
+	height:15%;
+	}
+	
+	#productname {
+	font-size:2rem;
+	}
+
+	#productdescrip {
+	font-size:0.9rem;
+	}
+	
+	#productquantity {
+	font-size:1.2rem;
+	}	
+	
+	#productprizehan {
+	font-size:2rem;
+	}
+	
+	
+
+}
+
+
+
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+.credits { text-align: center; margin-bottom: 20px; }
+
+.magnify {
+    position: relative; 
+    cursor: none;
+}
+
+/* Let's create the magnifying glass */
+.large {
+	display: none;
+	width: 195px; 
+	height: 195px;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	
+	/* box shadows to achieve the glass effect */
+	-webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25)
+}
+
+
+
+
+
+
+
+
