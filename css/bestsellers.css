@@ -1,0 +1,98 @@
+/* BEST SELLERS */
+
+
+@font-face {
+  font-family: 'Evogria';
+  src: url('./font/Evogria.otf'); /* IE9 Compat Modes */
+}
+
+.topsellers {
+	margin-top:8%;
+}
+
+
+#topselleritems{
+	font-family:Evogria;
+	font-size:3rem;
+}
+
+.card-title {
+    font-family:Evogria;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-img-top {
+	width:270px;
+    height: 250px;
+}
+
+@media screen and (max-width: 1680px) {
+    
+    .card-img-top {
+    width: 250px;
+    height: 250px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1600px){
+    
+    .card-img-top {
+    width: 220px;
+    height: 220px;
+    }
+}
+
+
+@media screen and (max-width: 1440px){
+	
+.card-img-top {
+	width:195px;
+    height: 170px;
+}
+
+}
+
+.carousel-inner {
+	border-radius:10px;
+}
+
+.carousel-indicators {
+	margin-bottom:-4%;
+}
+
+.bestselleritem {
+	color:white;
+	background-color:#333333;
+	transition: transform .2s;
+}
+
+
+.bestselleritem:hover {
+	background-color:#4B4B4B;
+	cursor: pointer;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	width:2%;
+}
+
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+
+.container {
+    max-width: 81.4%;
+}

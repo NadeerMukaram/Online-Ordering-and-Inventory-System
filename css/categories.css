@@ -1,0 +1,758 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./font/BebasNeue-Regular.otf'); /* IE9 Compat Modes */
+}
+
+
+/* Sidebar */
+
+.sidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background-color: #c8c6a7;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 140px;
+}
+
+.sidebar a {
+	padding: 0px 0px 0px 40px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: white;
+	display: block;
+	transition: 0.3s;
+	color:#333333;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+
+.sidebar a:hover {
+	color: white;
+}
+
+.items {
+	margin:auto;
+	width:80%;
+}
+
+.items a:hover {
+	color: #c8c6a7;
+	text-decoration:none;
+}
+
+
+.sidebar .closebtn {
+	padding-top: 80px;
+	position: absolute;
+	top: 0;
+	right: 30px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+.openbtn {	
+	top:50%;
+	left:1%;
+	position: fixed;
+	font-size: 20px;
+	cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+	border-radius: 5px;
+	z-index:2;
+	transition: transform .2s;
+}
+
+.openbtn img{
+    width:130px;
+}
+
+.openbtn:active {
+    transform: scale(1.1);
+	opacity:0.9;
+}
+
+
+.hantechheader {
+	font-size:120px;
+	font-family:Bebas Neue;
+	margin-top:150px;
+	margin-bottom:-35px;
+	text-align:center;
+}
+
+.sidebarh {
+	font-family:Bebas Neue;
+	font-size:50px;
+	padding: 0px 0px 10px 36px;
+}
+
+
+#main {
+	transition: margin-left .5s;
+	padding: 16px;
+}
+
+.featureitems {
+	background-color:black;
+
+}
+
+
+
+/* Carousel */
+
+
+.carousel-inner {
+	margin-top:5.5%;
+	clip-path: circle(70% at 50% 50%);
+	border-radius:40px;
+}
+
+.carousel-indicators{
+	z-index:1;
+	margin-top:-5%;
+}
+
+.caroubg {
+	background-image: url("./imgp/han-bg-category-alt.jpg");
+    background-size: 100% 100%;
+	margin:auto;
+	width:100%;
+	margin-top:-10px;
+    -webkit-box-shadow: 0px 9px 0px 0px rgba(0,0,0,0.16);
+-moz-box-shadow: 0px 9px 0px 0px rgba(0,0,0,0.16);
+box-shadow: 0px 9px 0px 0px rgba(0,0,0,0.16);
+}
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 22px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    background-color: #c8c6a7;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+
+.carousel-indicators .active {
+    width: 22px;
+    height: 12px;
+    margin: 10px;
+    background-color: #333333;
+}
+
+.carousel-indicators {
+    bottom: -10px;
+}
+
+.carousel-caption h4 {
+    margin-bottom: -0.5rem;
+}
+
+.main {
+    width: 50vw;
+    margin: 100px auto;
+	margin-bottom: -90px;
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+
+}
+
+.main button {
+    z-index:1;
+}
+
+.card-title {
+    font-family:Evogria;
+}
+
+
+.card {
+	transition: transform .2s;
+}
+
+
+.card:hover {
+    -webkit-box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.3);
+}
+
+.hrcate {
+	color:white;
+	width:85%;
+	margin:15px 15px;
+}
+
+
+.openbtn_for_categoryaction {
+	top:50%;
+	left:1%;
+	position: fixed;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #c8c6a7;
+    padding: 0;
+    border: none;
+    background: none;
+	z-index:2;
+	transition: transform .2s;
+    }
+    
+.openbtn_for_categoryaction img{
+    width:130px;
+}
+
+.openbtn_for_categoryaction:active {
+    transform: scale(1.1);
+	opacity:0.9;
+}
+    
+    
+    .hanhighlow {
+    margin-left: 21%;
+    }  
+    
+    .hanhighlowcataction {
+    margin-left: 29.1%;
+    }
+    
+    .btnon {
+    font-size: 1.4rem;
+    }     
+
+/* HantechPromoandshit  */
+
+.hantech202 {
+	margin-top:1vw;
+	width:80%;
+	margin-bottom:1vw;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:10px;
+}
+
+
+
+
+
+/* Hantech Categories */
+
+
+.anotherfeaturebody {
+	display: flex;
+	justify-content: center;
+	margin:0px 17px 3% 17px;
+	position: sticky;
+}
+
+.anotherfeature {
+	margin: auto;
+	padding:15px;
+	background:#c8c6a7;
+	width:20%;
+	margin:5px;
+	border-radius:10px;
+}
+
+.anotherfeature h2, a{
+	font-size:1.45rem;
+	text-decoration:none;
+	color:#333333;
+}
+
+.anotherfeature:hover {
+	background:#B5B38D;
+	color:#333333;
+	text-decoration:none;
+}
+
+.foodicon{
+	width:11%;
+	position:absolute;
+	left:18.5%;
+	top:-5%;
+	float:right;
+
+}
+
+.clothingicon{
+	width:11%;
+	position:absolute;
+	left:39.1%;
+	top:-5%;
+	float:right;
+}
+
+.beveragesicon{
+	width:11%;
+	position:absolute;
+	left:59.5%;
+	top:-5%;
+	float:right;
+}
+
+.cosmeticsicon{
+	width:11%;
+	position:absolute;
+	left:80.1%;
+	top:-5%;
+	float:right;
+}
+
+@media screen and (max-width: 768px) { 
+    
+    .anotherfeaturebody {
+	display: none;
+    }
+	
+}
+
+
+/* --------------------------------- */
+
+
+
+@media screen and (max-width: 1440px) {
+    
+    
+    .carousel-inner {
+	margin-top:6%;
+    }
+    
+    #main {
+	margin-top: -99px;
+    }
+    
+    
+    .foodicon{
+	width:12%;
+	position:absolute;
+	left:17.1%;
+	top:-5%;
+	float:right;
+
+}
+
+.clothingicon{
+	width:12%;
+	position:absolute;
+	left:37.9%;
+	top:-5%;
+	float:right;
+}
+    
+    .beveragesicon{
+	width:12%;
+	position:absolute;
+	left:58.7%;
+	top:-5%;
+	float:right;
+}
+
+    .cosmeticsicon{
+	width:12%;
+	position:absolute;
+	left:79.5%;
+	top:-5%;
+	float:right;
+}
+
+
+    .card {
+	transition: transform .2s;
+	height:30%;
+    }
+
+
+    .sidebar a {
+	font-size: 1.02rem;
+    }
+    
+
+    .carousel-indicators li {
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    background-color: #c8c6a7;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+    }
+
+    .carousel-indicators .active {
+    width: 18px;
+    height: 12px;
+    margin: 10px;
+    background-color: #333333;
+    }
+    
+    
+}
+
+
+@media (max-width: 1366px) { 
+    
+    .sblogo {
+    display:none;
+    }
+    
+}
+
+
+@media screen and (max-width:450px) and (min-width:400px) {
+    
+    .openbtn_for_categoryaction {
+	position: fixed;
+	cursor: pointer;
+	background-color: #c8c6a7;
+    padding: 0;
+    border: none;
+    background: none;
+	border-radius:3px;
+	z-index:2;
+    }
+    
+    .openbtn_for_categoryaction img {
+    width: 50px;
+    }   
+    
+    .row {
+    margin-left: 1px;
+    }
+    
+	
+    
+}
+@media screen and (max-width:400px) and (min-width:360px) { 
+    
+    .openbtn_for_categoryaction {
+	position: fixed;
+	cursor: pointer;
+	background-color: #c8c6a7;
+    padding: 0;
+    border: none;
+    background: none;
+	border-radius:3px;
+	z-index:2;
+    }
+    
+    .openbtn_for_categoryaction img {
+    width: 46px;
+    }   
+    
+}
+
+/* Phone Reso */
+@media screen and (max-width: 768px) and (min-width: 300px) {
+    
+	.sidebar {
+		padding-top: 140px;
+	}
+	.sidebar a {
+		font-size: 18px;
+	}
+	
+	
+	.anotherfeature h2, a{
+	font-size:3.5vw;
+	text-decoration:none;
+	color:#333333;
+    }
+	
+	.hantech202 {
+	margin-top:5vw;
+	margin:auto;
+	width:90%;
+	margin-bottom:2vw;
+    }
+    
+    .hantech202 img {
+    height:90px;
+    }
+	
+	.hantechheader {
+		font-size:50px;
+		font-family:Bebas Neue;
+		margin-top:100px;
+		margin-bottom:-20px;
+		text-align:center;
+	}
+	
+	.carousel-indicators {
+	margin-left:30px;
+	}
+	
+
+	.main {
+    width: 310px;
+	}
+	
+	.card {
+	font-size:10px;
+	text-align:center;
+	margin-left:5px;
+	height: 5rem;
+	}
+	
+	.card h5 {
+	font-size:1rem;
+	margin:-12px 0px 0px 0px;
+	}
+	
+	.card button {
+    margin:auto;
+	}
+	
+	.card-text {
+	text-align: left;
+	width: 8rem;
+	}
+	
+	.card-title {
+	font-size: 12px;
+	}
+	
+    
+    }
+
+
+
+.pota {
+    display:none;
+    }
+    
+    
+    
+    
+    
+
+    @media screen and (max-width:450px) and (min-width:400px) {
+        
+    .openbtn img {
+    width: 55px;
+    }    
+        
+        
+    .card-footer {
+	margin-left:-10px;
+	}    
+        
+       
+    .carousel-inner {
+	margin-top:80px;
+    }   
+        
+        
+    .caroubg {
+	height:60%;
+    }    
+        
+        
+    .btn-group {
+
+    margin-left: -4%;
+    margin-right: auto;    
+    }  
+    
+    .btn-group button {
+    font-size:13px;
+    }
+        
+    .pota {
+    display:inline-block;
+    position:absolute;
+    top:64px;
+    left:292px;
+    }
+    
+    .hideonmobi {
+    display:none;
+    }     
+     
+	
+	.carousel-indicators {
+	margin-left:55px;
+	}
+	
+	.items {
+	margin:20px 60px 0px 30px;
+	}
+   
+   .main {
+    width: 83vw;
+    margin: 110px auto;
+	margin-bottom: -100px;
+    }
+   
+    .openbtn {
+    position: fixed;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+    border-radius: 3px;
+    z-index: 2;
+    }
+
+    }
+     @media screen and (max-width:400px) and (min-width:360px) { 
+         
+    .openbtn img{
+    width:50px;
+    }     
+         
+         
+    .card-footer {
+	margin-left:-20px;
+	}
+      
+    .btn-group {
+
+    margin-left: auto;
+    margin-right: auto;    
+    }  
+    
+    .btn-group button {
+    font-size:10px;
+    }
+    
+    .carousel-inner {
+	margin-top:80px;
+    }   
+        
+        
+    .caroubg {
+	height:60%;
+    }  
+       
+    .pota {
+    display:inline-block;
+    position:absolute;
+    top:61px;
+    left:250px;
+    }
+        
+   .hideonmobi {
+    display:none;
+    }
+        
+   .carouselitem {
+    width:300px;
+    }
+
+
+    .openbtn {	
+	position: fixed;
+	cursor: pointer;
+	background-color: #c8c6a7;
+    padding: 0;
+    border: none;
+    background: none;
+	border-radius:3px;
+	z-index:2;
+	}
+	
+    }
+
+
+	
+	.rotate {
+	display: block;
+	margin-top:10%;
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+	width:52%;
+    }
+
+
+
+    /* Categories Image size */
+
+    .card-img-top {
+    height:290px;
+    }
+
+    @media screen and (min-width: 1400px) {
+        
+    .card-img-top {
+    height:290px;
+    }
+    
+    .img-fluid {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    }
+   
+        
+    }
+    
+    @media screen and (max-width: 1366px) and (min-width: 1024px) {
+        
+    .card-img-top {
+    height:180px;
+    }
+    
+    .img-fluid {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    }
+    
+    }
+    
+    @media screen and (max-width: 800px) {
+        
+    .card-img-top {
+    height:120px;
+    }
+    
+    .img-fluid {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    }
+   
+        
+    }
+
