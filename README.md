@@ -10,6 +10,8 @@ My Software Engineering Project that I did in 2021
 ![Hantech Cart](https://github.com/NadeerMukaram/Online-Ordering-and-Inventory-System/assets/72739154/5bff6a52-fa4e-466b-b517-d47e26ccf239)
 ![5](https://github.com/NadeerMukaram/Online-Ordering-and-Inventory-System/assets/72739154/7b031e83-f6ed-40ff-8619-4380b4a7b0c1)
 ![Hantech Categories](https://github.com/NadeerMukaram/Online-Ordering-and-Inventory-System/assets/72739154/223a025a-96df-4ba0-9e38-0e80e813d242)
+
+## Demo
 ![7](https://github.com/NadeerMukaram/Online-Ordering-and-Inventory-System/assets/72739154/564271fe-8115-4cf0-9bc9-74d3b9b9f639)
 ![6](https://github.com/NadeerMukaram/Online-Ordering-and-Inventory-System/assets/72739154/ebb9f16d-7357-4d25-8011-d8206115912e)
 ![8](https://github.com/NadeerMukaram/Online-Ordering-and-Inventory-System/assets/72739154/9407e2d9-c67c-41eb-ac1f-511e4ff097be)
